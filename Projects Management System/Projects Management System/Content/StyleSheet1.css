@@ -1,0 +1,17 @@
+﻿.sidebarContent{
+   
+    text-align:center;
+    font-size:large;
+    min-height:150px;
+    margin-bottom:10px;
+    margin-top:20px;
+    
+}
+.mainContent{
+    
+    text-align:center;
+    font-size:medium;
+    min-height:500px;
+    margin-top:20px;
+    margin-bottom:10px;
+}

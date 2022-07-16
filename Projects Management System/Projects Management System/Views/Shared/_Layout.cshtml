@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title </title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/pop_ups.css" rel="stylesheet" type="text/css" />
+    @RenderSection("Styles", false)
+    <script src="~/Scripts/pop_ups.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    
+</head>
+<body style="padding-top:0px" >
+      
+     @RenderBody()
+               
+    <nav class="navbar navbar-inverse text-center text-capitalize" style="padding-top:100px;padding-bottom:100px">
+        <div class="container-fluid " style="color:gainsboro">
+
+            <p><span class="glyphicon glyphicon-map-marker"></span> Faculty of computer science,Helwan</p>
+            <p><span class="glyphicon glyphicon-earphone"></span> 01019190224</p>
+            <a href="https://github.com/ASPTeam/Internet_Application"> <span class="glyphicon glyphicon-envelope"></span> GITHUB.com</a>
+            <br /><br />
+            <p>all rights reserved @DateTime.Now.Year &copy; </p>
+        </div>
+
+    </nav>
+      
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @RenderSection("scripts", false)
+</body>
+</html>
